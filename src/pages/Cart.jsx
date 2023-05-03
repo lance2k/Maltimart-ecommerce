@@ -74,6 +74,7 @@ const Tr = ({ item }) => {
 	const deleteProduct = () => {
 		dispatch(cartActions.deleteItem(item.id));
 	};
+	console.log(item);
 	return (
 		<tr>
 			<td>
